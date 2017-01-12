@@ -89,29 +89,34 @@
 <entry key="CFG_SHOW_HISTORY" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.jfc.node.scatterplot.JfcScatterPlotNodeFactory"/>
 <entry key="node-name" type="xstring" value="Scatter Plot (JFreeChart)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME JFreeChart nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jfreechart"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.2.0.v201605301230"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.0.v201611252100"/>
 <entry key="node-feature-name" type="xstring" value="KNIME JFreeChart"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jfreechart.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.2.0.v201607271010"/>
+<entry key="node-feature-version" type="xstring" value="3.3.0.v201612012034"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Scatter Plot (JFreeChart)"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
+<entry key="port_object_summary" type="xstring" value="PNG Image 600 x 400 with 13 KB"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="cd5b2603-58bf-4b3c-b76f-b46cebf50cf0"/>
 </config>
 </config>
