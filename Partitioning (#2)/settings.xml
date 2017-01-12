@@ -6,22 +6,17 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="url" type="xstring" value="C:\Users\g.bernonville-ext\knime-workspace\AutoMPG\auto-mpg.csv"/>
-<entry key="colDelimiter" type="xstring" value=","/>
-<entry key="rowDelimiter" type="xstring" value="%%00010"/>
-<entry key="quote" type="xstring" value="&quot;"/>
-<entry key="commentStart" type="xstring" value="#"/>
-<entry key="hasRowHeader" type="xboolean" value="false"/>
-<entry key="hasColHeader" type="xboolean" value="true"/>
-<entry key="supportShortLines" type="xboolean" value="false"/>
-<entry key="limitRowsCount" type="xlong" value="-1"/>
-<entry key="skipFirstLinesCount" type="xint" value="-1"/>
-<entry key="characterSetName" type="xstring" isnull="true" value=""/>
+<entry key="method" type="xstring" value="Relative"/>
+<entry key="samplingMethod" type="xstring" value="Random"/>
+<entry key="fraction" type="xdouble" value="0.8"/>
+<entry key="count" type="xint" value="100"/>
+<entry key="random_seed" type="xstring" isnull="true" value=""/>
+<entry key="class_column" type="xstring" value="car"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
-<entry key="node-name" type="xstring" value="CSV Reader"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.partition.PartitionNodeFactory"/>
+<entry key="node-name" type="xstring" value="Partitioning"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
@@ -31,7 +26,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
 <entry key="node-feature-version" type="xstring" value="3.2.1.v201608190927"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="CSV Reader"/>
+<entry key="name" type="xstring" value="Partitioning"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -39,12 +34,19 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 398, Cols: 9"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 318, Cols: 9"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 80, Cols: 9"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="fd1d564e-85d1-4d8b-bdd9-aec55d43e9c0"/>
+<entry key="file_store_id" type="xstring" value="260bec01-1425-495f-82d4-93efceda9add"/>
 </config>
 </config>
