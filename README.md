@@ -4,4 +4,4 @@ This workflow demonstrates a linear regression on [Auto MPG dataset from UCI](ht
 
 Goal is to predict mpg depending other variables (displacement, weight, acceleration...).
 
-![Workflow](workflow.svg)
+![Workflow](https://raw.githubusercontent.com/geraudster/knime_autompgtraining/master/workflow.svg)
