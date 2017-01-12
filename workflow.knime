@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="g.bernonville-ext"/>
 <entry key="authored-when" type="xstring" value="2017-01-11 17:18:08 +0100"/>
 <entry key="lastEdited-by" type="xstring" value="g.bernonville-ext"/>
-<entry key="lastEdited-when" type="xstring" value="2017-01-12 11:14:04 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2017-01-12 14:20:33 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
@@ -197,13 +197,13 @@
 </config>
 <config key="connection_6">
 <entry key="sourceID" type="xint" value="5"/>
-<entry key="destID" type="xint" value="6"/>
+<entry key="destID" type="xint" value="7"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_7">
 <entry key="sourceID" type="xint" value="5"/>
-<entry key="destID" type="xint" value="7"/>
+<entry key="destID" type="xint" value="6"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
